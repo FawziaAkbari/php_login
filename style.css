@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #dccefb;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    color: #414141;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 30px 2px whitesmoke;;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.input-feild {
+    display: flex;
+    margin: 1em;
+
+}
+
+.input-feild label{
+    width: 100px;
+}
+
+.info {
+    outline: none;
+    font-size: 1rem;
+    padding: .75em 1em;
+    border-radius: 3px;
+    
+}
+
+.input-feild input {
+    background: #EDEDED;
+    border: 1px solid #C7C7C7;
+    width: 300px;
+}
+
+input[type=file] {
+    border: none;
+    margin-left: 0;
+}
+
+.title {
+    margin: 0 auto 20px 20px;
+}
+
+.button {
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    background: #5200FF;
+    padding: 1em;
+    color: white;
+    border: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    .input-feild {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
